@@ -1,3 +1,9 @@
+body{
+    background: #D3D3D3
+}  /* Background colour using Hex colours*/
+
+
+
 .time{
     color: #00008b;
     font-family: monospace;
