@@ -1,11 +1,11 @@
 body{
-    background: #D3D3D3
+    background: #ca3b3b
 }  /* Background colour using Hex colours*/
 
 
 
 .time{
-    color: #00008b;
+    color: rgba(214, 230, 222, 0.938);
     font-family: monospace;
     font-size: 35px;
     text-align: center;
