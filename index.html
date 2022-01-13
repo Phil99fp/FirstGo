@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docu</title>
-    <link href="style.css" rel="stylesheet">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Philip Cotter</h1>
+  <header>
+    
+    <h1> Philip <small>Cotter</small></h1>
+    <span>Welcome to my portfolio</span>
 
-    <p class= 'about-us'>
-        This is my portfolio
-    </p>
+  </header>
+
+  <nav> 
+    <ul class = "menu expanded text-center">
+        <li class= "active"><a href="index.html">Home</a></li>
+        <li><a href="aboutMe.html">About Me</a></li>
+        <li><a href="IceCreamShop.html">Ice Cream Shop</a></li>
+        <li><a href="BeetrootFacts.html">Beetroot Facts</a></li>
+    </ul>
+  </nav>
+  
     <div class= "time">
         <p>What would you like to know</p>
           <ol>
@@ -20,5 +32,13 @@
             <li> Present</li>
             <li> Future</li>
           </ol>
+
+    <label for="default_select">Default select</label>
+        <div class="nes-select">
+           <select required id="default_select">
+             <option value="0">To be</option>
+             <option value="1">Not to be</option>
+          </select>
+        </div>
 </body>
 </html>
